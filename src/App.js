@@ -5,7 +5,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Dinner></Dinner>
+      <Dinner dishName = "Biryani"></Dinner>
+      <Dinner dishName = "Karhai"></Dinner>
     </div>
   );
 }
