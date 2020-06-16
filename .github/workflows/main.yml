@@ -36,4 +36,4 @@ jobs:
     - name: Installing Surge
       run: npm install -g surge
     - name: Deploying on surge
-      run: surge ./build react_app_15jun20.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build reac-app-omama.surge.sh --token ${{ secrets.SURGE_TOKEN }}
